@@ -30,4 +30,5 @@ npm run dev
 
 - The 3D toy viewer uses a simple geometry-based preview for the beta.
 - Product data is currently static inside `lib/products.ts`.
+- A new admin portal at `/admin` can add products directly into the backend product store.
 - Future beta updates can add a backend, cart flow, and file upload preview.

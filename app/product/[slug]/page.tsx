@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import ModelViewer from '../../../components/ModelViewer';
-import { getProductBySlug } from '../../../lib/products';
+import { getProductBySlug } from '../../../lib/product-service';
 
 type PageProps = {
   params: {
@@ -8,8 +8,8 @@ type PageProps = {
   };
 };
 
-export default function ProductPage({ params }: PageProps) {
-  const product = getProductBySlug(params.slug);
+export default async function ProductPage({ params }: PageProps) {
+  const product = await getProductBySlug(params.slug);
   if (!product) {
     notFound();
   }

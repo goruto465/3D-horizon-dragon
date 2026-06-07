@@ -1,7 +1,9 @@
 import ProductCard from '../../components/ProductCard';
-import { products } from '../../lib/products';
+import { getAllProducts } from '../../lib/product-service';
 
-export default function CatalogPage() {
+export default async function CatalogPage() {
+  const products = await getAllProducts();
+
   return (
     <div className="min-h-screen bg-black/80 text-white">
       <main className="mx-auto max-w-7xl px-6 py-10 lg:px-12">

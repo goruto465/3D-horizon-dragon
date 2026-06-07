@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "dragon-guardian",
+    "title": "Dragon Guardian",
+    "category": "Articulated Critters",
+    "ageRange": "8+",
+    "material": "Bio-degradable PLA",
+    "price": 29.99,
+    "description": "A poseable dragon with movable wings and a playful expression."
+  },
+  {
+    "slug": "space-snap-kit",
+    "title": "Space Snap Kit",
+    "category": "Modular Building Blocks",
+    "ageRange": "10+",
+    "material": "PLA Blend",
+    "price": 24.5,
+    "description": "Modular space station pieces that snap together and expand."
+  },
+  {
+    "slug": "hero-mini-me",
+    "title": "Hero Mini-Me",
+    "category": "Personalized Figures",
+    "ageRange": "6+",
+    "material": "PLA",
+    "price": 22,
+    "description": "A personalized hero figure with interchangeable head and cape."
+  },
+  {
+    "slug": "boom",
+    "title": "boom",
+    "category": "figet",
+    "ageRange": "1-100",
+    "material": "silicon",
+    "price": 2,
+    "description": "boom"
+  }
+]

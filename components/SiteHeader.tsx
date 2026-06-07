@@ -5,6 +5,7 @@ const navItems = [
   { label: 'Catalog', href: '/catalog' },
   { label: 'Lab', href: '/lab' },
   { label: 'About', href: '/about' },
+  { label: 'Admin', href: '/admin' },
 ];
 
 export default function SiteHeader() {

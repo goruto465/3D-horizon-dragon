@@ -25,37 +25,3 @@ export const featuredCategories = [
     cta: 'Pick a pose, color, and size for the perfect gift.',
   },
 ];
-
-export const products: Product[] = [
-  {
-    slug: 'dragon-guardian',
-    title: 'Dragon Guardian',
-    category: 'Articulated Critters',
-    ageRange: '8+',
-    material: 'Bio-degradable PLA',
-    price: 29.99,
-    description: 'A poseable dragon with movable wings and a playful expression.',
-  },
-  {
-    slug: 'space-snap-kit',
-    title: 'Space Snap Kit',
-    category: 'Modular Building Blocks',
-    ageRange: '10+',
-    material: 'PLA Blend',
-    price: 24.5,
-    description: 'Modular space station pieces that snap together and expand.',
-  },
-  {
-    slug: 'hero-mini-me',
-    title: 'Hero Mini-Me',
-    category: 'Personalized Figures',
-    ageRange: '6+',
-    material: 'PLA',
-    price: 22.0,
-    description: 'A personalized hero figure with interchangeable head and cape.',
-  },
-];
-
-export function getProductBySlug(slug: string) {
-  return products.find((product) => product.slug === slug) ?? null;
-}
